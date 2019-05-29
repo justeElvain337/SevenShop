@@ -1,0 +1,152 @@
+.navbar{
+    
+    margin-bottom: 0;
+    a{
+        color: set-text-color($secondary-color) !important;
+    }
+ .fa{
+     font-size:18px;
+ }
+
+ img{
+     width:14%;
+     height:16px;
+ }
+}
+
+.showcase{
+position: relative;
+background: url(../images/products/showcase.jpg);
+background-size:cover;
+background-position: center;
+height:700px;
+padding:60px 0;
+
+
+h1{
+    font-size:60px;
+    }
+
+    .container{
+        background:rgb(0, 0, 0);
+        opacity:0.3;
+        padding: 20px 30px 30px 30px;
+        color:#fff;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+}
+.section-a{
+    padding:30px 0;
+    text-align:center;
+    background: $brand-light-bg;
+    color :set-text-color($main-color);
+
+    .fa{
+        font-size: $icon-size-sm;
+    }
+.row{
+    margin: 2rem;
+}
+    .btn-link{
+      
+       transform: translate(-50%,-50%);
+       color:$secondary-color;
+       padding:12px 12px;
+       text-decoration: none;
+       border :0.5px solid $light-secondary-color;
+       border-radius:25px 25px;
+     margin-bottom:2rem;
+       box-shadow: 0 4px 4px rgba(0,0,0,.2 );
+
+       overflow:hidden;
+    }
+
+
+ 
+    .card{
+        background: #fff;
+        border-radius: 14px;
+        box-shadow: 0 4px 4px rgba(0,0,0,.2 );
+    }
+   
+}
+.section-c{
+    padding:30px 0;
+    text-align: center;
+    background: $main-color;
+    color :set-text-color($main-color);
+    .btn-primary{
+        background: darken($main-color,10%);
+    }
+}
+
+.title-bar{
+    background: url(../images/products/come_on_burundi.jpg) no-repeat center center;
+    padding-bottom:32px;
+    border-bottom: 4px solid $main-color;
+    width:100%;
+}
+
+.main{
+    margin-top:30px;
+}
+
+.card{
+    padding: 12px;
+    margin-bottom:24px;
+}
+
+.section-top{
+    padding:0;
+    text-align:center;
+    background :$main-color;
+    color :set-text-color($main-color);
+
+  .col-md-4 {
+    .fa{
+        font-size: $icon-size;
+   }
+  }
+  .fa{
+      font-size: $icon-size-md;
+      padding:12px 12px;
+  }
+}
+
+
+// Images
+img{
+ 
+    width: 100%;
+    min-height: 200px;
+    box-shadow: 0 4px 4px rgba(0,0,0,.3 );
+   
+}
+
+h1, h2 ,h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.error{
+    color: $brand-danger;
+}
+.success{
+    color :ff9966;
+    text-align : center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer{
+ padding: 15px 0;
+    background: darken($main-color, 20%);
+    color: set-text-color($main-color);
+    a{
+
+       color: $light-main-color;
+    }
+  
+ 
+}

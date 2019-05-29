@@ -1,0 +1,30 @@
+{
+  "name": "sevenshop",
+  "version": "1.0.0",
+  "description": "Burundian T-shirt design online shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "SevenShop"
+  },
+  "keywords": [
+    "Tshirt",
+    "Burundi",
+    "Juste",
+    "elvain"
+	"Grandpace"
+	"Graphic design in Burundi"
+  ],
+  "author": "Juste Elvain",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-sass": "^3.4.1",
+    "font-awesome": "^4.7.0",
+    "fontawesome": "^5.6.3",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
