@@ -63,7 +63,7 @@
          <h1>Kugira mugire commande; mushobora kutwandikira canke kuduhamagara</h1>
      </div>
      </div>
-   <?php include('form_process.php');?>
+   
 <div class="main">
     <div class="container">
         <div class="row">
@@ -73,19 +73,15 @@
                               <div class="form-group field">
                                   <label for="amazina" class="text-center">Amazina</label>
                                  <input type="text" class="form-control" name="name" placeholder="amazina yanyu ngaha"  required>
-                                 <span class="text-center text-danger"> <?=$name_error;?> </span>
-                                 
-                                </div>
-
+</div>
                                 <div class="form-group field">
                                   <label for="email" class="text-center">E-mail</label>
                                  <input type="email" class="form-control" name="email" placeholder="E-mail yanyu ngaha" required>
-                                 <span class="text-center text-danger"> <?=$email_error;?> </span>
-                                </div>
+                               </div>
                                 <div class="form-group field">
                                   <label for="telephone" class="text-center">Telephone</label>
                                  <input type="tel" class="form-control" name="phone" placeholder="Numero za Telephone yanyu ngaha" required>
-                                 <span class="text-center text-danger"> <?=$phone_error;?> </span>
+                              
                                 </div>
 
 
@@ -97,8 +93,7 @@
 
                                 
                                  <button name="submit" type="submit" id="contact-form"  class="btn btn-primary btn-md pull-center"> Murungike</button>
-                                 <div class="text-center text-success"><?=$success;?></div>
-
+                                
                                  <div class="field">
                                   <div data-netlify-recaptcha="true"></div>
                                 </div>
